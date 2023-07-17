@@ -26,7 +26,7 @@ const cityHandler = async () => {
      const data = await response.json();
  
      if (response.ok) {
-       setError(""); // Clear the error state
+       setError("")
        setHumidity(data.main.humidity);
        setWind(data.wind.speed * 3.6);
        setTemperature(data.main.temp);
