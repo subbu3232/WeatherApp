@@ -1,0 +1,75 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.card{
+  border-radius: 60px 0px 60px 0px ;
+    height: 90vh;
+    background: linear-gradient(to bottom right,rgb(140, 210, 210),rgb(42, 70, 70));
+    width: 50vw;
+    
+}
+.search{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.ipfield{
+    border: none;
+    height: 2rem;
+    width: 15rem;
+    border-radius: 2rem;
+
+}
+.ipfield:hover{
+    border: 1px solid rgb(42, 70, 70);
+}
+.temp{
+    margin-top: 0rem;
+    color: whitesmoke;
+}
+.weather{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.humidity{
+    display: flex;
+    margin-left: 0rem;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: -2rem;
+    margin-left: 4rem;
+}
+.humpercent{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.hum{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.windspeed{
+    display: flex;
+    flex-direction: column;
+ margin-left: 31rem;
+ margin-top: -8.5rem;
+}
+.windprcnt{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.wind{
+    font-size: 1rem;
+    color: whitesmoke;
+}
+.location{
+    color: whitesmoke;
+}
