@@ -54,25 +54,25 @@ const cityHandler = async () => {
  };
  let weatherImg
  if(condition == "Drizzle"){
-    weatherImg="./Weather Condition Images/drizzle.png"
+    weatherImg="https://i.ibb.co/xqQG4Wm/drizzle.png"
  }
  else if(condition == "Clouds"){
-   weatherImg="./Weather Condition Images/clouds.png"
+   weatherImg="https://i.ibb.co/KWf03kj/clouds.png"
 }
 else if(condition == "Clear"){
-   weatherImg="./Weather Condition Images/clear.png"
+   weatherImg="https://i.ibb.co/bgHy4Yy/clear.png"
 }
 else if(condition == "Mist"){
-   weatherImg="./Weather Condition Images/mist.png"
+   weatherImg="https://i.ibb.co/S381Ncg/mist.png"
 }
 else if(condition == "Rain"){
-   weatherImg="./Weather Condition Images/rain.png"
+   weatherImg="https://i.ibb.co/qWq7y7J/rain.png"
 }
 else if(condition == "Snow"){
-   weatherImg="./Weather Condition Images/snow.png"
+   weatherImg="https://i.ibb.co/QPvLzts/snow.png"
 }
 else {
-      weatherImg = "./Weather Condition Images/drizzle.png";
+      weatherImg = "https://i.ibb.co/xqQG4Wm/drizzle.png";
     
 }
 return(
@@ -95,12 +95,12 @@ return(
         
     </div>
     <div className={styles.humidity}>
-       <div><img src=".//Weather Condition Images/humidity.png"></img></div> 
+       <div><img src="https://i.ibb.co/zSdLKjf/humidity.png"></img></div> 
        <div className={styles.humpercent}>{humidity + "%"}</div>
        <div className={styles.hum}>HUMIDITY</div>
     </div>
     <div className={styles.windspeed}>
-       <div><img src=".//Weather Condition Images/wind.png"></img></div> 
+       <div><img src="https://i.ibb.co/h9HnqDK/wind.png"></img></div> 
        <div className={styles.windprcnt}>{Math.round(wind)+" Km/hr"}</div>
        <div className={styles.wind}>WIND</div>
     </div>
