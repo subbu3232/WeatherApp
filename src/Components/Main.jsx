@@ -54,22 +54,22 @@ const cityHandler = async () => {
  };
  let weatherImg
  if(condition == "Drizzle"){
-    weatherImg=".//Weather Condition Images/drizzle.png"
+    weatherImg="./Weather Condition Images/drizzle.png"
  }
  else if(condition == "Clouds"){
-   weatherImg=".//Weather Condition Images/clouds.png"
+   weatherImg="./Weather Condition Images/clouds.png"
 }
 else if(condition == "Clear"){
-   weatherImg=".//Weather Condition Images/clear.png"
+   weatherImg="./Weather Condition Images/clear.png"
 }
 else if(condition == "Mist"){
-   weatherImg=".//Weather Condition Images/mist.png"
+   weatherImg="./Weather Condition Images/mist.png"
 }
 else if(condition == "Rain"){
-   weatherImg=".//Weather Condition Images/rain.png"
+   weatherImg="./Weather Condition Images/rain.png"
 }
 else if(condition == "Snow"){
-   weatherImg=".//Weather Condition Images/snow.png"
+   weatherImg="./Weather Condition Images/snow.png"
 }
 else {
       weatherImg = "./Weather Condition Images/drizzle.png";
